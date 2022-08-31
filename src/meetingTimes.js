@@ -11,10 +11,8 @@ export function getPercentOfInstructionalTime(data){
 }
 
 function calculateTimeSum(times) {
-  console.log('times: ', times);
   const initialTime = 0;
   const timeSum = times.reduce((previousValue, currentValue) => previousValue + currentValue, initialTime);
-  console.log(timeSum);
   return timeSum;
 }
 
