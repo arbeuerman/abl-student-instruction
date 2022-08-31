@@ -29,7 +29,7 @@ const StudentMeetingTime = (props) => {
 
   return(
     <>
-      <h2>Time {student} spent in instructional meetings</h2>
+      <h2>Instructional Meeting Time for {student}</h2>
       <p>{student} has spent {timeInInstructionalMeetings}% of their time in instructional meetings.</p>
     </>
   )

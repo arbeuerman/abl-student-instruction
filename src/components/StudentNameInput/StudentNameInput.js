@@ -11,7 +11,6 @@ const StudentNameInput = () => {
 
   function handleInput(event) {
     const name = event.target.value;
-    // console.log('change input: ', name);
     setStudentName(name);
   }
 

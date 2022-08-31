@@ -14,6 +14,6 @@ describe('Student name input component displays correctly', () => {
   it('student name is correctly displayed in title', () => {
     render(<StudentMeetingTime student = {props.student}/>)
     const title = screen.getByRole('heading');
-    expect(title).toHaveTextContent('Time Sarah spent in instructional meetings');
+    expect(title).toHaveTextContent('Instructional Meeting Time for Sarah');
   })
 })
