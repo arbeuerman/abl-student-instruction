@@ -2,6 +2,16 @@
 
 ## Running the app
 
+### Package versions
+
+- node version=14.17.3
+- npm version=6.14.13
+
+### Start app
+
+- run `npm ci` to ensure packages up to date. ex: axios used for API calls.
+- run command `npm start`.
+
 ## Testing
 
 ## Assumptions
