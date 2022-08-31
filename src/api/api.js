@@ -9,14 +9,11 @@ const config = {
 
 export async function getStudents(){
   const response = await axios.get(url,config)
-
-  // axios.get(url, config)
-  console.log('in api call', response.data);
   return response.data;
 }
 
 export async function getStudentMeetings(studentName){
   const studentUrl = `${url}/${studentName}/meetings`;
   const response = await axios.get(studentUrl, config);
-  console.log(response);
+  return response.data;
 }
