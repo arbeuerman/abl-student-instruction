@@ -1,4 +1,10 @@
-# Getting Started with Create React App
+# Student Instructional Time -- Abl Code Challenge
+
+## Running the app
+
+## Testing
+
+## Assumptions
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
