@@ -29,4 +29,6 @@
 - as project grows, might use some type of component library like material-ui
 - handle errors (StudentNameInput line 26, StudentMeetingTime line 21)
 
+### Important info
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
